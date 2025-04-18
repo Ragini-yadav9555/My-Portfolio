@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/34fa688c29.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo2.jpg" alt="" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Ragini Yadav</span><br />From Ballia</h1>
+            </div>
+        </div>
+    </div>
+    <!----------About------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="Images/ar.jpeg"/>
+                </div>
+                <div class="col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Ragini Yadav from Ballia. I pursuing my Diploma from Government Girls Polytechnic, Varanasi specialized in Information Technology. I've worked hard in my education & maintained a CGPA of 9. Along with my academic I've completed HTML5, CSS3, JavaScript, Bootstrap5, MySQL, C, Python, Java & MERN Stack.
+                    As a fresher, I am eager to learn & grow in a professional settings.
+                    I am excited about the opportunity to contribute my skills to your team and further enhance my knowledge of Full Stack
+                    Development.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Frontend Technologies</span><br/>HTML5, CSS3, JavaScript, TypeScript, Bootstrap & React.js</li>
+                            <li><span>Backend Technologies</span><br/>Node.js & Express.js</li>
+                            <li><span>Databases</span><br/>MySQL & MongoDB</li>
+                            <li><span>Programming Languages</span><br>C, Java & Python</li>
+                            <li><span>Tools & Platforms</span><br>Git & GitHub, VS Code & Postman</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>July,2024 - Sep,2024</span><br/>Full Stack Developer Training at Techpile Technology Pvt. Ltd., Lucknow</li>
+                            <li><span>2023 - 2024</span><br/>Web Development</li>
+                            <li><span>2022 - 2023</span><br/>Basic Technologies</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022 - 2025</span><br/>Pursuing Diploma in GGP, Varanasi</li>
+                            <li><span>2022</span><br/>12th from R.K. Mission School, Ballia</li>
+                            <li><span>2020</span><br/>10th from R.K. Mission School, Ballia</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------Services------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Full-Stack Web Development</h2>
+                    <p>I design and build complete web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js) — from frontend UI to backend logic and database management.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Responsive Frontend Development</h2>
+                    <p>I create modern, interactive, and mobile-friendly user interfaces using React.js, Tailwind CSS, and JavaScript to deliver seamless user experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>RESTful APIs & Backend Services</h2>
+                    <p>I develop secure and scalable backend services using Node.js and Express.js, along with custom APIs, authentication
+                    (JWT), and database integration (MongoDB).</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------Portfolio----------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/r-p-s.png"/>
+                    <div class="layer">
+                        <h3>Rock Paper Scissors Game</h3>
+                        <p>A Rock Paper Scissors game built using HTML, CSS, and JavaScript that lets users play against the computer with
+                        real-time score updates and interactive UI.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/t-t-t.png"/>
+                    <div class="layer">
+                        <h3>Tic-Tac-Toe Game</h3>
+                        <p>A Tic Tac Toe game developed using HTML, CSS, and JavaScript that allows two players to compete with a responsive interface and win/draw detection.</p>
+                        <a href="https://github.com/Ragini-yadav9555/tic-tac-toe" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/p.png"/>
+                    <div class="layer">
+                        <h3>Photography Clone</h3>
+                        <p>A photography website clone built using HTML and CSS, featuring a visually appealing layout to showcase images in a
+                        professional gallery style.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/" class="btn" target="_blank">See More</a>
+        </div>
+    </div>
+    <!---------------Contact--------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" class="email">raginiy283@gmail.com</a></p>
+                    <p><i class="fa-solid fa-square-phone"></i>9555014332</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Images/Ragini_Resume.pdf" class="btn btn2" target="_blank">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Enter Your Name..." required>
+                            <input type="email" name="Email" placeholder="Your Email..." required>
+                            <textarea name="Message" rows="6" placeholder="Your Message..."></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Ragini Made with <i class="fa-solid fa-heart"></i> love</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+</body>
+</html>
