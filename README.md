@@ -1,0 +1,1 @@
+This is a personal portfolio website developed using HTML, CSS, and JavaScript. It serves as a digital resume to showcase my skills, projects, education, and contact information in a clean and responsive design. The goal of this portfolio is to create a professional online presence and make it easier for recruiters and collaborators to learn more about me and my work.
